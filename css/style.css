@@ -72,7 +72,7 @@ header {
 
 /*Estilo logo top header*/
 .logotop {
-  width: 10%;
+  width: 60%;
 }
 /*Fin estilo logo top header*/
 
@@ -86,8 +86,15 @@ header {
   align-items: center;
 }
 
+
+.navmain{
+
+  display: flex;
+    justify-content: flex-end;
+    }
+
 .childmenu {
-  margin-right: 25px;
+ /* margin-right: 25px;*/
 }
 
 ul.childmenu {
@@ -96,6 +103,7 @@ ul.childmenu {
   font-family: "Bebas Neue";
   font-size: 18px;
   align-items: center;
+  margin: 0px;
 }
 
 li.item {
@@ -111,6 +119,7 @@ li.item {
   display: flex;
   align-items: center;
   padding: 2px;
+  justify-content: flex-end;
 }
 
 .childrss {
@@ -686,10 +695,23 @@ footer {
   height: 100px;
 }
 
+<<<<<<< HEAD
+=======
+
+.logofooter{width: 10%}
+
+>>>>>>> rama_1
 /*+=======================+
 FIN SECCION FOOTER
 +=======================+*/
 
+<<<<<<< HEAD
+=======
+
+
+
+
+>>>>>>> rama_1
 
 
 /*estilos de ayuda*/
@@ -702,4 +724,56 @@ FIN SECCION FOOTER
 .textComunidad.textonegro {
   color: #000;
 }
+<<<<<<< HEADg
 /*Fin estilos de ayuda*/
+=======
+/*Fin estilos de ayuda*/
+
+
+
+/*+=======================+
+SECCION medias querys custom
++=======================+*/
+
+
+/*Formato tablet mediun 768 PX*/
+@media (max-width: 768px) {
+ /*header*/ 
+  header {height: auto;}
+  .childlogotop{text-align: center;}
+  .navmain{justify-content: center;}
+  .contenrss{justify-content: center;}
+  .logotop {width: 30%;}
+  .contenmenu{width: 100%; max-width: 100%;}
+
+/*Portada*/
+section.portada{height: auto; padding: 50px;}
+.childwrapp{ width: 100%; max-width: 100%;}
+.bgrayossol{position: absolute;}
+.bgassetongredientes{position: absolute; padding: 0px;}
+.contentwrapp{position: relative; height: auto; padding: 0px;}
+.hatag{ line-height: normal;}
+.pizzaimg {width: 100%;}
+.contentportada{width: 100%;}
+.contentimgpizza{width: 100%;}
+.rayossolo { margin-top: 10px;}
+.textoportada{text-align: center;}
+.texbtn{margin: auto;}
+
+
+/*Seccion producto*/
+section.productos{padding: 50px;}
+.wrapptarjeta{width: 100%;}
+
+/*Seccion carta de precios*/
+.childprecios{width: 100%; max-width: 100%;}
+.imageningredientes{width: 100%;}
+.listadoprecios{width: 100%;}
+
+}
+  
+
+/*+=======================+
+Fin SECCION medias querys custom
++=======================+*/
+>>>>>>> rama_1
