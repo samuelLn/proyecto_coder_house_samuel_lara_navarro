@@ -196,6 +196,10 @@ section.portada {
 
 .contentportada {
   width: 30%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
 }
 .contentimgpizza {
   width: 40%;
@@ -423,6 +427,7 @@ section.banner {
 
 article.imgbanner {
   width: 50%;
+  padding: 0px;
 }
 
 .imgba {
@@ -745,7 +750,7 @@ section.portada{height: auto; padding: 50px;}
 .contentwrapp{position: relative; height: auto; padding: 0px;}
 .hatag{ line-height: normal;}
 .pizzaimg {width: 100%;}
-.contentportada{width: 100%;}
+.contentportada{width: 100%; display: block;}
 .contentimgpizza{width: 100%;}
 .rayossolo { margin-top: 10px;}
 .textoportada{text-align: center;}
@@ -762,11 +767,43 @@ section.productos{padding: 50px;}
 .listadoprecios{width: 100%;}
 
 /*banner infornmativo*/
-article.imgbanner{width: 100%;}
+article.imgbanner{width: 100%; padding: 0px;}
 article.txtdato{width: 100%;}
 
+/*footer*/
+footer {height: auto;}
+}
+
+
+
+/*Mobile 567 px*/
+@media (max-width: 576px) {
+
+  /*portada*/
+.bgassetongredientes {display: none;}
+.bgrayossol{scale: 4;} 
+.pizzaimg {width: 70%;}
+
+ /*seccion productos*/
+ .beforetitulo{ margin-top: 0px;}
+ .bajadatitulo{width: 100%;}
+ 
+ /*seccion tarjetas productos*/
+ .wrapptarjeta{margin: 20px 0px;}
+ .contentetarjetas{padding: 10px; margin-top: 10px;}
+
+ /*seccion precios*/
+ section.cartaprecios{margin-top: 20px;}
+ .listadoprecios{ padding: 0px 20px;}
+
+ /**seccion informativa*/
+ article.txtdato{ padding: 30px;}
+ section.banner {margin: 0px 0px 50px 0px;}
+ 
 
 }
+
+
   
 
 /*+=======================+
