@@ -761,6 +761,11 @@ section.productos{padding: 50px;}
 .imageningredientes{width: 100%;}
 .listadoprecios{width: 100%;}
 
+/*banner infornmativo*/
+article.imgbanner{width: 100%;}
+article.txtdato{width: 100%;}
+
+
 }
   
 
