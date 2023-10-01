@@ -704,6 +704,10 @@ FIN SECCION FOOTER
 
 
 
+
+
+
+
 /*estilos de ayuda*/
 .bggeneral {
   background-color: #ffb936;
@@ -715,3 +719,51 @@ FIN SECCION FOOTER
   color: #000;
 }
 /*Fin estilos de ayuda*/
+
+
+
+/*+=======================+
+SECCION medias querys custom
++=======================+*/
+
+
+/*Formato tablet mediun 768 PX*/
+@media (max-width: 768px) {
+ /*header*/ 
+  header {height: auto;}
+  .childlogotop{text-align: center;}
+  .navmain{justify-content: center;}
+  .contenrss{justify-content: center;}
+  .logotop {width: 30%;}
+  .contenmenu{width: 100%; max-width: 100%;}
+
+/*Portada*/
+section.portada{height: auto; padding: 50px;}
+.childwrapp{ width: 100%; max-width: 100%;}
+.bgrayossol{position: absolute;}
+.bgassetongredientes{position: absolute; padding: 0px;}
+.contentwrapp{position: relative; height: auto; padding: 0px;}
+.hatag{ line-height: normal;}
+.pizzaimg {width: 100%;}
+.contentportada{width: 100%;}
+.contentimgpizza{width: 100%;}
+.rayossolo { margin-top: 10px;}
+.textoportada{text-align: center;}
+.texbtn{margin: auto;}
+
+
+/*Seccion producto*/
+section.productos{padding: 50px;}
+.wrapptarjeta{width: 100%;}
+
+/*Seccion carta de precios*/
+.childprecios{width: 100%; max-width: 100%;}
+.imageningredientes{width: 100%;}
+.listadoprecios{width: 100%;}
+
+}
+  
+
+/*+=======================+
+Fin SECCION medias querys custom
++=======================+*/
