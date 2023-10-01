@@ -7,19 +7,16 @@
 }
 /*Fin reset estilos*/
 
-/*Estilos general*/
+
+/*+=======================+
+ESTILOS GENERRALES
++=======================+*/
+
 body {
   background: rgb(255, 255, 255);
   width: 100%;
 }
 
-
-footer {
-  background-color: #ffb936;
-  padding: 5px;
-  width: 100%;
-  height: 100px;
-}
 
 main {
   width: 100%;
@@ -55,7 +52,9 @@ a:hover {
   opacity: 0.7;
 }
 
-/*Fin estilos general*/
+/*+=======================+
+FIN ESTILOS GENERRALES
++=======================+*/
 
 
 
@@ -146,8 +145,7 @@ section.portada {
 }
 
 .childwrapp {
- 
-  width: 100%;
+ width: 100%;
   max-width: 1440px;
   position: relative;
   margin: auto;
@@ -314,6 +312,12 @@ FIN SECCION TARJETAS PRODUCTOS
 
 
 
+
+/*+=======================+
+SECCION CARTA DE PRECIOS
++=======================+*/
+
+
 section.cartaprecios {
   background-color: #fcfcfc;
   display: flex;
@@ -386,6 +390,11 @@ p.descriptionprecios {
   font-size: 16px;
   color: #848383;
 }
+
+/*+=======================+
+FIN SECCION CARTA DE PRECIOS
++=======================+*/
+
 
 /*estilo baenner buttom*/
 
@@ -468,7 +477,9 @@ h2.subtutulo.ajustesubtitulo {
   font-size: 48px;
 }
 
-/*pag comunidad*/
+/*+=======================+
+PAGINA SECCION COMUNIDAD
++=======================+*/
 
 .contentcomunidad {
   width: 100%;
@@ -587,6 +598,15 @@ p.textComunidad.textopequenoblog {
   line-height: normal;
 }
 
+/*+=======================+
+FIN PAGINA COMUNIDAD
++=======================+*/
+
+
+
+/*+=======================+
+PAGINA PRODUCTO
++=======================+*/
 /*pag producto*/
 .fotoproducto {
   width: 100%;
@@ -597,7 +617,14 @@ span.precioproducto {
   font-size: 40px;
 }
 
-/*Estilos formulario*/
+/*+=======================+
+FIN PAGINA PRODUCTO
++=======================+*/
+
+
+/*+=======================+
+SECCION FORMULARIO
++=======================+*/
 
 .contentform {
   background-color: #fcfcfc;
@@ -644,7 +671,25 @@ img.mapaimg {
   width: 100;
 }
 
-/*fin Estilos formulario*/
+/*+=======================+
+FIN SECCION FORMULARIO
++=======================+*/
+
+/*+=======================+
+SECCION FOOTER
++=======================+*/
+
+footer {
+  background-color: #ffb936;
+  padding: 5px;
+  width: 100%;
+  height: 100px;
+}
+
+/*+=======================+
+FIN SECCION FOOTER
++=======================+*/
+
 
 
 /*estilos de ayuda*/
@@ -657,3 +702,4 @@ img.mapaimg {
 .textComunidad.textonegro {
   color: #000;
 }
+/*Fin estilos de ayuda*/
