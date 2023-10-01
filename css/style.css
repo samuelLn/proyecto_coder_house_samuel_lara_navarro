@@ -7,19 +7,16 @@
 }
 /*Fin reset estilos*/
 
-/*Estilos general*/
+
+/*+=======================+
+ESTILOS GENERRALES
++=======================+*/
+
 body {
   background: rgb(255, 255, 255);
   width: 100%;
 }
 
-
-footer {
-  background-color: #ffb936;
-  padding: 5px;
-  width: 100%;
-  height: 100px;
-}
 
 main {
   width: 100%;
@@ -55,7 +52,9 @@ a:hover {
   opacity: 0.7;
 }
 
-/*Fin estilos general*/
+/*+=======================+
+FIN ESTILOS GENERRALES
++=======================+*/
 
 
 
@@ -73,7 +72,7 @@ header {
 
 /*Estilo logo top header*/
 .logotop {
-  width: 10%;
+  width: 60%;
 }
 /*Fin estilo logo top header*/
 
@@ -87,8 +86,15 @@ header {
   align-items: center;
 }
 
+
+.navmain{
+
+  display: flex;
+    justify-content: flex-end;
+    }
+
 .childmenu {
-  margin-right: 25px;
+ /* margin-right: 25px;*/
 }
 
 ul.childmenu {
@@ -97,6 +103,7 @@ ul.childmenu {
   font-family: "Bebas Neue";
   font-size: 18px;
   align-items: center;
+  margin: 0px;
 }
 
 li.item {
@@ -112,6 +119,7 @@ li.item {
   display: flex;
   align-items: center;
   padding: 2px;
+  justify-content: flex-end;
 }
 
 .childrss {
@@ -146,8 +154,7 @@ section.portada {
 }
 
 .childwrapp {
- 
-  width: 100%;
+ width: 100%;
   max-width: 1440px;
   position: relative;
   margin: auto;
@@ -314,6 +321,12 @@ FIN SECCION TARJETAS PRODUCTOS
 
 
 
+
+/*+=======================+
+SECCION CARTA DE PRECIOS
++=======================+*/
+
+
 section.cartaprecios {
   background-color: #fcfcfc;
   display: flex;
@@ -386,6 +399,11 @@ p.descriptionprecios {
   font-size: 16px;
   color: #848383;
 }
+
+/*+=======================+
+FIN SECCION CARTA DE PRECIOS
++=======================+*/
+
 
 /*estilo baenner buttom*/
 
@@ -468,7 +486,9 @@ h2.subtutulo.ajustesubtitulo {
   font-size: 48px;
 }
 
-/*pag comunidad*/
+/*+=======================+
+PAGINA SECCION COMUNIDAD
++=======================+*/
 
 .contentcomunidad {
   width: 100%;
@@ -587,6 +607,15 @@ p.textComunidad.textopequenoblog {
   line-height: normal;
 }
 
+/*+=======================+
+FIN PAGINA COMUNIDAD
++=======================+*/
+
+
+
+/*+=======================+
+PAGINA PRODUCTO
++=======================+*/
 /*pag producto*/
 .fotoproducto {
   width: 100%;
@@ -597,7 +626,14 @@ span.precioproducto {
   font-size: 40px;
 }
 
-/*Estilos formulario*/
+/*+=======================+
+FIN PAGINA PRODUCTO
++=======================+*/
+
+
+/*+=======================+
+SECCION FORMULARIO
++=======================+*/
 
 .contentform {
   background-color: #fcfcfc;
@@ -644,7 +680,32 @@ img.mapaimg {
   width: 100;
 }
 
-/*fin Estilos formulario*/
+/*+=======================+
+FIN SECCION FORMULARIO
++=======================+*/
+
+/*+=======================+
+SECCION FOOTER
++=======================+*/
+
+footer {
+  background-color: #ffb936;
+  padding: 5px;
+  width: 100%;
+  height: 100px;
+}
+
+
+.logofooter{width: 10%}
+
+/*+=======================+
+FIN SECCION FOOTER
++=======================+*/
+
+
+
+
+
 
 
 /*estilos de ayuda*/
@@ -657,3 +718,52 @@ img.mapaimg {
 .textComunidad.textonegro {
   color: #000;
 }
+/*Fin estilos de ayuda*/
+
+
+
+/*+=======================+
+SECCION medias querys custom
++=======================+*/
+
+
+/*Formato tablet mediun 768 PX*/
+@media (max-width: 768px) {
+ /*header*/ 
+  header {height: auto;}
+  .childlogotop{text-align: center;}
+  .navmain{justify-content: center;}
+  .contenrss{justify-content: center;}
+  .logotop {width: 30%;}
+  .contenmenu{width: 100%; max-width: 100%;}
+
+/*Portada*/
+section.portada{height: auto; padding: 50px;}
+.childwrapp{ width: 100%; max-width: 100%;}
+.bgrayossol{position: absolute;}
+.bgassetongredientes{position: absolute; padding: 0px;}
+.contentwrapp{position: relative; height: auto; padding: 0px;}
+.hatag{ line-height: normal;}
+.pizzaimg {width: 100%;}
+.contentportada{width: 100%;}
+.contentimgpizza{width: 100%;}
+.rayossolo { margin-top: 10px;}
+.textoportada{text-align: center;}
+.texbtn{margin: auto;}
+
+
+/*Seccion producto*/
+section.productos{padding: 50px;}
+.wrapptarjeta{width: 100%;}
+
+/*Seccion carta de precios*/
+.childprecios{width: 100%; max-width: 100%;}
+.imageningredientes{width: 100%;}
+.listadoprecios{width: 100%;}
+
+}
+  
+
+/*+=======================+
+Fin SECCION medias querys custom
++=======================+*/
