@@ -799,12 +799,40 @@ footer {height: auto;}
  /**seccion informativa*/
  article.txtdato{ padding: 30px;}
  section.banner {margin: 0px 0px 50px 0px;}
- 
+  
+}
+
+/*movil 480*/
+@media (max-width: 480px) {
+
+/*header menu*/
+.contenmenu{ padding: 30px 10px;}
+ul.childmenu{padding: 0px;}
+h1.totituloprincipal{font-size: 44px;}
+h2.hatag{font-size: 30px;}
+h2.subtutulo{font-size: 30px}
+.texbtn{width: 80%;}
+
+/*seccion portada*/
+section.portada{padding: 20px 50px;}
+h2.titulosecion{font-size: 44px;}
+
+/*seccion precios*/
+.childprecios{ padding: 30px 30px;}
+
+}
+  
+
+/*movil 380*/
+@media (max-width: 380px) {
+
+h2.titulosecion {font-size: 30px;}
+section.productos {padding: 20px;}
+hr.lineaprecio{width: 50%;}
+.nombreproducto, .valorproducto {margin: 0px;}
 
 }
 
-
-  
 
 /*+=======================+
 Fin SECCION medias querys custom
