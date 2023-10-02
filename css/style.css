@@ -7,7 +7,6 @@
 }
 /*Fin reset estilos*/
 
-
 /*+=======================+
 ESTILOS GENERRALES
 +=======================+*/
@@ -16,7 +15,6 @@ body {
   background: rgb(255, 255, 255);
   width: 100%;
 }
-
 
 main {
   width: 100%;
@@ -56,9 +54,6 @@ a:hover {
 FIN ESTILOS GENERRALES
 +=======================+*/
 
-
-
-
 /*+=======================+
 SECCION HEADER
 +=======================+*/
@@ -86,15 +81,13 @@ header {
   align-items: center;
 }
 
-
-.navmain{
-
+.navmain {
   display: flex;
-    justify-content: flex-end;
-    }
+  justify-content: flex-end;
+}
 
 .childmenu {
- /* margin-right: 25px;*/
+  /* margin-right: 25px;*/
 }
 
 ul.childmenu {
@@ -113,10 +106,11 @@ li.item {
 /* Fin estilos menu principoal Desktop*/
 
 /*estulo movil menu*/
-.movilcustom{ display: none;}
+.movilcustom {
+  display: none;
+}
 
 /*fin estulo movil menu*/
-
 
 /*Estilos zona rrss top*/
 
@@ -141,9 +135,6 @@ li.item {
 FIN SECCION HEADER
 +=======================+*/
 
-
-
-
 /*+=======================+
 SECCION PORTADA
 +=======================+*/
@@ -159,7 +150,7 @@ section.portada {
 }
 
 .childwrapp {
- width: 100%;
+  width: 100%;
   max-width: 1440px;
   position: relative;
   margin: auto;
@@ -186,7 +177,6 @@ section.portada {
   width: 100%;
 }
 
-
 /*Estilo contenido portdas*/
 
 .contentwrapp {
@@ -208,7 +198,9 @@ section.portada {
 }
 
 /*ajuste portada general*/
-.textoportada.ajustepagegeneral{width: 100%;}
+.textoportada.ajustepagegeneral {
+  width: 100%;
+}
 
 .contentimgpizza {
   width: 40%;
@@ -252,7 +244,6 @@ section.portada {
 /*+=======================+
 FIN SECCION PORTADA
 +=======================+*/
-
 
 /*+=======================+
 SECCION TARJETAS PRODUCTOS
@@ -332,13 +323,9 @@ article.contentbtnproducto > a > .texbtn {
 FIN SECCION TARJETAS PRODUCTOS
 +=======================+*/
 
-
-
-
 /*+=======================+
 SECCION CARTA DE PRECIOS
 +=======================+*/
-
 
 section.cartaprecios {
   background-color: #fcfcfc;
@@ -357,7 +344,7 @@ section.cartaprecios {
 
 .imageningredientes {
   width: 45%;
- }
+}
 
 .listadoprecios {
   width: 55%;
@@ -372,13 +359,12 @@ section.cartaprecios {
 }
 
 .cuadrodeprecios {
-  
 }
 
 .celdaprecio {
   display: block;
   margin-top: 25px;
-  }
+}
 
 .preciodetalle {
   display: flex;
@@ -417,27 +403,28 @@ p.descriptionprecios {
 FIN SECCION CARTA DE PRECIOS
 +=======================+*/
 
-
 /*+=======================+
 SECCION GALERIA GRID 
 +=======================+*/
-.galeria{ width: 100%; padding: 10px;}
-
-.grid-container{ 
-display: grid;
-grid-template-rows: repeat(2, 1fr) ;   
-grid-template-columns: repeat(4, 1fr); 
+.galeria {
+  width: 100%;
+  padding: 10px;
 }
 
-.itemimg{}
-.img-galeria{width: 100%;}
+.grid-container {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.itemimg {
+}
+.img-galeria {
+  width: 100%;
+}
 /*+=======================+
 FIN SECCION GALERIA GRID 
 +=======================+*/
-
-
-
-
 
 /*estilo baenner buttom*/
 
@@ -646,8 +633,6 @@ p.textComunidad.textopequenoblog {
 FIN PAGINA COMUNIDAD
 +=======================+*/
 
-
-
 /*+=======================+
 PAGINA PRODUCTO
 +=======================+*/
@@ -664,7 +649,6 @@ span.precioproducto {
 /*+=======================+
 FIN PAGINA PRODUCTO
 +=======================+*/
-
 
 /*+=======================+
 SECCION FORMULARIO
@@ -730,18 +714,13 @@ footer {
   height: 100px;
 }
 
-
-.logofooter{width: 10%}
+.logofooter {
+  width: 10%;
+}
 
 /*+=======================+
 FIN SECCION FOOTER
 +=======================+*/
-
-
-
-
-
-
 
 /*estilos de ayuda*/
 .bggeneral {
@@ -755,185 +734,340 @@ FIN SECCION FOOTER
 }
 /*Fin estilos de ayuda*/
 
-
-
 /*+=======================+
 SECCION medias querys custom
 +=======================+*/
 
 /*Formato tablet mediun 1300 PX*/
 @media (max-width: 1300px) {
-  .bgassetongredientes{padding: 30px;}
-  .contentwrapp{padding: 20px;}
-  .childwrapp{width: 100%; max-width: 100%;}
-  .pizzaimg {width: 85%;}
+  .bgassetongredientes {
+    padding: 30px;
+  }
+  .contentwrapp {
+    padding: 20px;
+  }
+  .childwrapp {
+    width: 100%;
+    max-width: 100%;
+  }
+  .pizzaimg {
+    width: 85%;
+  }
 
-  h1.totituloprincipal{font-size: 45px;}
+  h1.totituloprincipal {
+    font-size: 45px;
+  }
 
-  .contentwrapp{position: relative;}
+  .contentwrapp {
+    position: relative;
+  }
 
   .contentportada {
     flex-direction: row-reverse;
     justify-content: center;
-    align-items: center;}
+    align-items: center;
+  }
 
-    .wrapptarjeta {width: 250px; margin: 10px 5px;}
-
-
-
+  .wrapptarjeta {
+    width: 250px;
+    margin: 10px 5px;
+  }
 }
-
-
-
 
 /*Formato tablet mediun 768 PX*/
 @media (max-width: 768px) {
- /*header*/ 
-  header {height: auto;}
-  .childlogotop{text-align: center; width: 100%;}
-  .childmenu{width: 100%;}
+  /*header*/
+  header {
+    height: auto;
+  }
+  .childlogotop {
+    text-align: center;
+    width: 100%;
+  }
+  .childmenu {
+    width: 100%;
+  }
   /*ajuste estilo boostrap*/
-  .navbar>.container-fluid{justify-content: center ;}
-  .navmain{justify-content: center; display: none;}
-  .contenrss{justify-content: center;}
-  .logotop {width: 30%;}
-  .contenmenu{width: 100%; max-width: 100%;}
+  .navbar > .container-fluid {
+    justify-content: center;
+  }
+  .navmain {
+    justify-content: center;
+    display: none;
+  }
+  .contenrss {
+    justify-content: center;
+  }
+  .logotop {
+    width: 30%;
+  }
+  .contenmenu {
+    width: 100%;
+    max-width: 100%;
+  }
 
-/*menu movil*/
-.movilcustom{ display: block;}
-.navbar-light .navbar-toggler{border: black solid 2px; margin: 10px 0px;}
-.navbar-collapse{background-color: rgba(255, 255, 255, 0); padding: 10px; border: solid 2px rgba(0, 0, 0, 0.251);}
+  /*menu movil*/
+  .movilcustom {
+    display: block;
+  }
+  .navbar-light .navbar-toggler {
+    border: black solid 2px;
+    margin: 10px 0px;
+  }
+  .navbar-collapse {
+    background-color: rgba(255, 255, 255, 0);
+    padding: 10px;
+    border: solid 2px rgba(0, 0, 0, 0.251);
+  }
 
+  /*Portada inicio*/
+  section.portada {
+    height: auto;
+    padding: 50px;
+  }
+  .childwrapp {
+    width: 100%;
+    max-width: 100%;
+  }
+  .bgrayossol {
+    position: absolute;
+  }
+  .bgassetongredientes {
+    position: absolute;
+    padding: 0px;
+  }
+  .contentwrapp {
+    position: relative;
+    height: auto;
+    padding: 0px;
+  }
+  .hatag {
+    line-height: normal;
+  }
+  .pizzaimg {
+    width: 100%;
+  }
+  .contentportada {
+    width: 100%;
+    display: block;
+  }
+  .contentimgpizza {
+    width: 100%;
+  }
+  .rayossolo {
+    margin-top: 10px;
+  }
+  .textoportada {
+    text-align: center;
+  }
+  .texbtn {
+    margin: auto;
+  }
 
-/*Portada inicio*/
-section.portada{height: auto; padding: 50px;}
-.childwrapp{ width: 100%; max-width: 100%;}
-.bgrayossol{position: absolute;}
-.bgassetongredientes{position: absolute; padding: 0px;}
-.contentwrapp{position: relative; height: auto; padding: 0px;}
-.hatag{ line-height: normal;}
-.pizzaimg {width: 100%;}
-.contentportada{width: 100%; display: block;}
-.contentimgpizza{width: 100%;}
-.rayossolo { margin-top: 10px;}
-.textoportada{text-align: center;}
-.texbtn{margin: auto;}
+  /*Seccion producto inicio*/
+  section.productos {
+    padding: 50px;
+  }
+  .wrapptarjeta {
+    width: 100%;
+  }
 
+  /*seccion llamdo a la accio*/
+  .beforetitulo {
+    margin-top: 10px;
+  }
 
-/*Seccion producto inicio*/
-section.productos{padding: 50px;}
-.wrapptarjeta{width: 100%;}
+  /*Seccion carta de precios*/
+  .childprecios {
+    width: 100%;
+    max-width: 100%;
+  }
+  .imageningredientes {
+    width: 100%;
+  }
+  .listadoprecios {
+    width: 100%;
+  }
 
+  /*banner infornmativo inicio*/
+  article.imgbanner {
+    width: 100%;
+    padding: 0px;
+  }
+  article.txtdato {
+    width: 100%;
+  }
 
-/*seccion llamdo a la accio*/
-.beforetitulo{margin-top: 10px;}
+  /*pagina somos*/
+  /*altura portada general*/
+  section.portada.ajustepórtada {
+    height: auto;
+  }
+  /*bnt ver mas portada*/
+  p.texbtn.ajustebtnportada {
+    width: 60%;
+  }
+  /*seccion informacion*/
+  .childcomunidad {
+    flex-direction: column;
+  }
 
-/*Seccion carta de precios*/
-.childprecios{width: 100%; max-width: 100%;}
-.imageningredientes{width: 100%;}
-.listadoprecios{width: 100%;}
+  /*contenedor general info*/
+  article.contentimagemcomunidad {
+    width: 100%;
+    padding: 0px;
+    text-align: center;
+  }
+  .comunidadfoto {
+    width: 100%;
+    height: auto;
+  }
+  article.contenttextcomunidad {
+    width: 100%;
+    text-align: center;
+  }
 
-/*banner infornmativo inicio*/
-article.imgbanner{width: 100%; padding: 0px;}
-article.txtdato{width: 100%;}
+  p.texbtn.ajustehablemos {
+    margin-top: 40px;
+    width: 60%;
+  }
+  section.banner.bannerpequeno {
+    margin: 20px;
+  }
 
+  /*Datos de contacto*/
+  article.txtdato.ajustedatogeneral {
+    flex-direction: column;
+  }
+  p.textodato {
+    margin: 0px;
+  }
 
-/*pagina somos*/
-/*altura portada general*/
-section.portada.ajustepórtada{height: auto;}
-/*bnt ver mas portada*/
-p.texbtn.ajustebtnportada {width: 60%;}
-/*seccion informacion*/
-.childcomunidad{flex-direction: column;}
+  .wraappdatoscontacto {
+    margin: 10px 0px;
+  }
 
-/*contenedor general info*/
-article.contentimagemcomunidad{width: 100%; padding: 0px; text-align: center;}
-.comunidadfoto{width: 100%; height: auto;}
-article.contenttextcomunidad{width: 100%;}
-
-p.texbtn.ajustehablemos{ margin-top: 40px; width: 60%;}
-section.banner.bannerpequeno {margin: 20px;}
-
-/*Datos de contacto*/
-article.txtdato.ajustedatogeneral{flex-direction: column;}
-p.textodato {margin: 0px;}
-
-.wraappdatoscontacto {margin: 10px 0px;}
-
-
-/*footer*/
-footer {height: auto;}
+  /*footer*/
+  footer {
+    height: auto;
+  }
 }
-
-
 
 /*Mobile 567 px*/
 @media (max-width: 576px) {
-
   /*portada*/
-.bgassetongredientes {display: none;}
-.bgrayossol{scale: 4;} 
-.pizzaimg {width: 70%;}
+  .bgassetongredientes {
+    display: none;
+  }
+  .bgrayossol {
+    scale: 4;
+  }
+  .pizzaimg {
+    width: 70%;
+  }
 
- /*seccion productos*/
- .beforetitulo{ margin-top: 0px;}
- .bajadatitulo{width: 100%;}
- 
- /*seccion tarjetas productos*/
- .wrapptarjeta{margin: 20px 0px;}
- .contentetarjetas{padding: 10px; margin-top: 10px;}
+  /*seccion productos*/
+  .beforetitulo {
+    margin-top: 0px;
+  }
+  .bajadatitulo {
+    width: 100%;
+  }
 
- /*seccion precios*/
- section.cartaprecios{margin-top: 20px;}
- .listadoprecios{ padding: 0px 20px;}
+  /*seccion tarjetas productos*/
+  .wrapptarjeta {
+    margin: 20px 0px;
+  }
+  .contentetarjetas {
+    padding: 10px;
+    margin-top: 10px;
+  }
 
- /**seccion informativa*/
- article.txtdato{ padding: 30px;}
- section.banner {margin: 0px 0px 50px 0px;}
+  /*seccion precios*/
+  section.cartaprecios {
+    margin-top: 20px;
+  }
+  .listadoprecios {
+    padding: 0px 20px;
+  }
 
+  /**seccion informativa*/
+  article.txtdato {
+    padding: 30px;
+  }
+  section.banner {
+    margin: 0px 0px 50px 0px;
+  }
 
- /*pag somos seccion informativa*/
- .childcomunidad{padding: 30px 30px;}
+  /*pag somos seccion informativa*/
+  .childcomunidad {
+    padding: 30px 30px;
+  }
 
-/*seccion datos contacto*/
- article.txtdato.ajustedatogeneral {padding: 20px;}
+  /*seccion datos contacto*/
+  article.txtdato.ajustedatogeneral {
+    padding: 20px;
+  }
 
- /*seccion contacto*/
- input[type="submit"].customenviar{ width: 90%; margin: auto;}
-  
+  /*seccion contacto*/
+  input[type="submit"].customenviar {
+    width: 90%;
+    margin: auto;
+  }
 }
 
 /*movil 480*/
 @media (max-width: 480px) {
+  /*header menu*/
+  .contenmenu {
+    padding: 30px 10px;
+  }
+  ul.childmenu {
+    padding: 0px;
+  }
+  h1.totituloprincipal {
+    font-size: 44px;
+  }
+  h2.hatag {
+    font-size: 30px;
+  }
+  h2.subtutulo {
+    font-size: 30px;
+  }
+  .texbtn {
+    width: 80%;
+  }
 
-/*header menu*/
-.contenmenu{ padding: 30px 10px;}
-ul.childmenu{padding: 0px;}
-h1.totituloprincipal{font-size: 44px;}
-h2.hatag{font-size: 30px;}
-h2.subtutulo{font-size: 30px}
-.texbtn{width: 80%;}
+  /*seccion portada*/
+  section.portada {
+    padding: 20px 50px;
+  }
+  h2.titulosecion {
+    font-size: 44px;
+  }
 
-/*seccion portada*/
-section.portada{padding: 20px 50px;}
-h2.titulosecion{font-size: 44px;}
-
-/*seccion precios*/
-.childprecios{ padding: 30px 30px;}
-
+  /*seccion precios*/
+  .childprecios {
+    padding: 30px 30px;
+  }
 }
-  
 
 /*movil 380*/
 @media (max-width: 380px) {
-
-h2.titulosecion {font-size: 30px;}
-section.productos {padding: 20px;}
-hr.lineaprecio{width: 50%;}
-.nombreproducto, .valorproducto {margin: 0px;}
-
+  h2.titulosecion {
+    font-size: 30px;
+  }
+  section.productos {
+    padding: 20px;
+  }
+  hr.lineaprecio {
+    width: 50%;
+  }
+  .nombreproducto,
+  .valorproducto {
+    margin: 0px;
+  }
 }
-
 
 /*+=======================+
 Fin SECCION medias querys custom
