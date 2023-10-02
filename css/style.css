@@ -112,6 +112,11 @@ li.item {
 }
 /* Fin estilos menu principoal Desktop*/
 
+/*estulo movil menu*/
+.movilcustom{ display: none;}
+
+/*fin estulo movil menu*/
+
 
 /*Estilos zona rrss top*/
 
@@ -731,16 +736,49 @@ FIN SECCION FOOTER
 SECCION medias querys custom
 +=======================+*/
 
+/*Formato tablet mediun 1300 PX*/
+@media (max-width: 1300px) {
+  .bgassetongredientes{padding: 30px;}
+  .contentwrapp{padding: 20px;}
+  .childwrapp{width: 100%; max-width: 100%;}
+  .pizzaimg {width: 85%;}
+
+  h1.totituloprincipal{font-size: 45px;}
+
+  .contentwrapp{position: relative;}
+
+  .contentportada {
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;}
+
+    .wrapptarjeta {width: 250px; margin: 10px 5px;}
+
+
+
+}
+
+
+
 
 /*Formato tablet mediun 768 PX*/
 @media (max-width: 768px) {
  /*header*/ 
   header {height: auto;}
-  .childlogotop{text-align: center;}
-  .navmain{justify-content: center;}
+  .childlogotop{text-align: center; width: 100%;}
+  .childmenu{width: 100%;}
+  /*ajuste estilo boostrap*/
+  .navbar>.container-fluid{justify-content: center ;}
+  .navmain{justify-content: center; display: none;}
   .contenrss{justify-content: center;}
   .logotop {width: 30%;}
   .contenmenu{width: 100%; max-width: 100%;}
+
+/*menu movil*/
+.movilcustom{ display: block;}
+.navbar-light .navbar-toggler{border: black solid 2px; margin: 10px 0px;}
+.navbar-collapse{background-color: rgba(255, 255, 255, 0); padding: 10px; border: solid 2px rgba(0, 0, 0, 0.251);}
+
 
 /*Portada*/
 section.portada{height: auto; padding: 50px;}
