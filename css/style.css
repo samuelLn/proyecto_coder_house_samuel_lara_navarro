@@ -206,6 +206,10 @@ section.portada {
   align-items: center;
   justify-content: flex-end;
 }
+
+/*ajuste portada general*/
+.textoportada.ajustepagegeneral{width: 100%;}
+
 .contentimgpizza {
   width: 40%;
   text-align: center;
