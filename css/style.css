@@ -784,7 +784,7 @@ SECCION medias querys custom
 .navbar-collapse{background-color: rgba(255, 255, 255, 0); padding: 10px; border: solid 2px rgba(0, 0, 0, 0.251);}
 
 
-/*Portada*/
+/*Portada inicio*/
 section.portada{height: auto; padding: 50px;}
 .childwrapp{ width: 100%; max-width: 100%;}
 .bgrayossol{position: absolute;}
@@ -799,18 +799,46 @@ section.portada{height: auto; padding: 50px;}
 .texbtn{margin: auto;}
 
 
-/*Seccion producto*/
+/*Seccion producto inicio*/
 section.productos{padding: 50px;}
 .wrapptarjeta{width: 100%;}
+
+
+/*seccion llamdo a la accio*/
+.beforetitulo{margin-top: 10px;}
 
 /*Seccion carta de precios*/
 .childprecios{width: 100%; max-width: 100%;}
 .imageningredientes{width: 100%;}
 .listadoprecios{width: 100%;}
 
-/*banner infornmativo*/
+/*banner infornmativo inicio*/
 article.imgbanner{width: 100%; padding: 0px;}
 article.txtdato{width: 100%;}
+
+
+/*pagina somos*/
+/*altura portada general*/
+section.portada.ajustepórtada{height: auto;}
+/*bnt ver mas portada*/
+p.texbtn.ajustebtnportada {width: 60%;}
+/*seccion informacion*/
+.childcomunidad{flex-direction: column;}
+
+/*contenedor general info*/
+article.contentimagemcomunidad{width: 100%; padding: 0px; text-align: center;}
+.comunidadfoto{width: 100%; height: auto;}
+article.contenttextcomunidad{width: 100%;}
+
+p.texbtn.ajustehablemos{ margin-top: 40px; width: 60%;}
+section.banner.bannerpequeno {margin: 20px;}
+
+/*Datos de contacto*/
+article.txtdato.ajustedatogeneral{flex-direction: column;}
+p.textodato {margin: 0px;}
+
+.wraappdatoscontacto {margin: 10px 0px;}
+
 
 /*footer*/
 footer {height: auto;}
@@ -841,6 +869,16 @@ footer {height: auto;}
  /**seccion informativa*/
  article.txtdato{ padding: 30px;}
  section.banner {margin: 0px 0px 50px 0px;}
+
+
+ /*pag somos seccion informativa*/
+ .childcomunidad{padding: 30px 30px;}
+
+/*seccion datos contacto*/
+ article.txtdato.ajustedatogeneral {padding: 20px;}
+
+ /*seccion contacto*/
+ input[type="submit"].customenviar{ width: 90%; margin: auto;}
   
 }
 
