@@ -772,6 +772,13 @@ SECCION medias querys custom
     width: 250px;
     margin: 10px 5px;
   }
+
+ img.comunidadfoto {
+      width: 100%;
+      height: auto;
+ }
+
+  
 }
 
 /*Formato tablet mediun 768 PX*/
